@@ -8,10 +8,11 @@ draft = false
 tags = ["LinkLab","IoT", "system"]
 
 # Project summary to display on homepage.
-summary = "Testbed for Remote Developing and Experimenting IoT Applications"
+summary = "A Scalable and Heterogeneous Testbed for Remotely Developing and Experimenting IoT Applications"
 
 # Optional image to display on homepage.
-image_preview = "linklab1.png"
+image_preview = "featured.jpg"
+
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -25,11 +26,11 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "linklab/ide.png"
-caption = ""
+image = "linklab1.png"
+caption = "linklab"
 
 +++
-
+{{< figure library="true" src="linklab1.png" title="Screenshot of LinkLab" lightbox="true" >}}
 LinkLab ([Home Page](http://linklab.tinylink.cn/)) is a testbed for remotely developing and experimenting IoT applications. 
 With LinkLab, IoT developers can write the application code on Web IDE, compile the code on cloud, and burn the Binary File to remote devices. 
 

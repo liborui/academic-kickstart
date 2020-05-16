@@ -8,14 +8,14 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "Recent Publications"
-subtitle = "[See more >>](/publication)"
+# subtitle = "[See more >>](/publication)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 2
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -36,7 +36,7 @@ subtitle = "[See more >>](/publication)"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -57,6 +57,10 @@ subtitle = "[See more >>](/publication)"
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
+
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "20px", "0"]
   
 [advanced]
  # Custom CSS. 

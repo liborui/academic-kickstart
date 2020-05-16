@@ -1,6 +1,6 @@
 +++
 # A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
@@ -42,8 +42,7 @@ subtitle = "[See more >>](/project)"
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 2
-
+  view = 3
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
 
@@ -66,7 +65,11 @@ subtitle = "[See more >>](/project)"
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
-  
+
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "20px", "0"]
+
 [advanced]
  # Custom CSS. 
  css_style = ""

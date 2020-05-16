@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD student
+role: Ph.D student
 
 # Organizations/Affiliations
 organizations:
@@ -43,9 +43,9 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+# - icon: envelope
+#   icon_pack: fas
+#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/borui-li-9b6489148/
@@ -74,3 +74,5 @@ user_groups:
 **Borui Li**(李博睿) is currently a PhD student at [EmNets Research Group](http://www.emnets.org/) supervised by [Prof. Wei Dong](http://www.emnets.org/dongw/) in the College of Computer Science, Zhejiang University. 
 
 He recieved the B.S. degree in 2017 from Bell Honors School, Nanjing University of Posts and Telecommunications, Nanjing, China.
+
+**E-mail**: borui.li [at] zju.edu.cn

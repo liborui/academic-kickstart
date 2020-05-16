@@ -154,8 +154,12 @@ list_delimiter = ", "
 ## Advanced
 ############################
 
-# Get user avatars from Gravatar.com? (true/false)
-gravatar = false
+[avatar]
+  # Get user avatars from Gravatar.com? (true/false)
+  gravatar = false
+
+  # Choose a shape for avatar images. Options: circle, square.
+  shape = "square"
 
 # Align the main menu to the right of the page? (true/false)
 menu_align_right = false
@@ -208,7 +212,7 @@ plugins_js  = []
   engine = 0
 
   # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
+  commentable = {page = false, post = false, docs = false, project = false, publication = false, talk = false}
 
   # Configuration of Disqus.
   [comments.disqus]
